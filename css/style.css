@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 5vh;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -19,6 +20,10 @@ ul li a{
     text-decoration: none;
     vertical-align: middle;
     color: black;
+    position: relative;
+    padding: 1em;     
+    margin: -1em; 
+    border-radius: 50%;
 }
 
 ul li{
