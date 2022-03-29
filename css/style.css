@@ -41,3 +41,41 @@ body{
 }
 
 /* Box verde */
+.green_box{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.green_box .content_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.content_container .middle_text{
+    text-align: center;
+    color: yellow;
+}
+
+/* Box gialli */
+.yellow_box{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+}
+
+.yellow_box .content_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.content_container .bottom_text{
+    text-align: center;
+    color: green;
+}
